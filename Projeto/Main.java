@@ -5,15 +5,15 @@ public class Main {
         // Teste do ReprodutorMusical
         meuIphone.tocar();
         meuIphone.pausar();
-        meuIphone.selecionarMusica("Minha Música Favorita");
+        meuIphone.selecionarMusica("Five Finger Death punch");
 
         // Teste do AparelhoTelefonico
-        meuIphone.ligar("123-4567");
+        meuIphone.ligar("31 1234-5678");
         meuIphone.atender();
         meuIphone.iniciarCorreioVoz();
 
         // Teste do NavegadorInternet
-        meuIphone.exibirPagina("https://www.example.com");
+        meuIphone.exibirPagina("https://www.google.com");
         meuIphone.adicionarNovaAba();
         meuIphone.atualizarPagina();
     }
